@@ -12,13 +12,13 @@ function createStore() {
       todos.push(todo);
       return todo;
     },
-    complete(id) {
+    /*complete(id) {
       const todo = todos.find((t) => t.id === id);
       if (todo) {
         todo.status = 'DONE';
       }
       return todo;
-    },
+    },*/
   };
 }
 
