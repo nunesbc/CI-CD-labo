@@ -1,7 +1,8 @@
 name: Oefening2
 
-on: push
-  branches:
+on: 
+  push:
+    branches:
     - main
 jobs:
   test:
