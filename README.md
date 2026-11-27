@@ -21,3 +21,4 @@ Jij zet een pipeline op die elke wijziging automatisch test en een image publice
 | `PORT` | `3000` | Poort waarop de server luistert. |
 
 Endpoints: `GET /api/todos` en `POST /api/todos` (JSON-body met `title`).
+
