@@ -22,4 +22,4 @@ jobs:
         node-version: 24
 
     - name: run tests
-      run: npm test --if-present
+      run: npm test
