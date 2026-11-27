@@ -1,20 +1,20 @@
-name: info
+#name: info
 
-on: push
-  branches:
-    - main
-jobs:
-  info:
-    runs-on: ubuntu-latest
-    steps:
-      - name: hostname
-        run: hostname
-
-      - name: gebruikersnaam
-        run: whoami
-
-      - name: OS
-        run: uname -a
-
-      - name: inhoud van de werkmap
-        run: ls -la
+#on: push
+#  branches:
+ #   - main
+#jobs:
+  #info:
+   # runs-on: ubuntu-latest
+    #steps:
+     # - name: hostname
+      #  run: hostname
+#
+ #     - name: gebruikersnaam
+  #      run: whoami
+#
+ #     - name: OS
+  #      run: uname -a
+#
+ #     - name: inhoud van de werkmap
+  #      run: ls -la
