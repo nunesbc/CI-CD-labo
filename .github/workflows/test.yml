@@ -11,6 +11,9 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [22, 24, 26]
     
     steps:
     - name: get code
@@ -19,7 +22,7 @@ jobs:
     - name: Node.js configuration
       uses: actions/setup-node@v7
       with:
-        node-version: 24
+        node-version: ${{ matrix.node-version }}
 
     - name: run tests
       run: npm test
