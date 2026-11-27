@@ -2,7 +2,7 @@ name: info
 
 on: push
 
-job:
+jobs:
   info:
     runs-on: ubuntu-latest
     steps:
