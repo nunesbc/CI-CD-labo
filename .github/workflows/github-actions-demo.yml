@@ -1,7 +1,8 @@
 name: info
 
 on: push
-
+  branches:
+    - main
 jobs:
   info:
     runs-on: ubuntu-latest
